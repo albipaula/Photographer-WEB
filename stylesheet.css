@@ -1,0 +1,250 @@
+html{ 
+
+        scroll-behavior: smooth;
+}
+
+
+
+*{ 
+
+                font-family: 'Special Elite', cursive;
+                color: rgba(1, 1, 1, 0.678);
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+
+}
+
+header{ 
+
+                width: 98%; 
+                padding-top: 30px;
+                 text-align: center;
+               
+                 padding-top: 10px;
+                 
+                
+ }
+
+body {
+
+         width: 98%  ;
+         padding: 10px;
+        margin: 5px;
+        
+       
+
+}
+
+
+
+
+.navegacion {  
+
+        position: sticky ;
+        top:0;
+        z-index: 1;
+        width: 98%;
+        
+       
+}
+
+
+.navegacion{
+
+    
+                padding: 5px;
+                width: 98%;
+                height: 100px;
+                text-align: center;
+                text-decoration: none;
+                list-style: none;   
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+                flex-wrap: wrap;
+               
+
+}
+
+li.menu{
+
+               
+                text-decoration: none;
+                padding: 10px;
+                margin: 5px;
+                line-height: 20px;
+                width: 150px;
+                font-size: x-large;
+                
+    
+}
+
+li.menu:hover{ 
+                background-color: rgba(229, 223, 213, 0.567);
+                padding: 20px;
+                border-radius: 10px;
+                width: fit-content;
+                transition: 1s;}
+
+a:link{ 
+         list-style: none;
+         text-decoration: none;
+ }
+
+a:visited{ 
+                list-style: none;
+}
+
+.container{
+
+               
+                margin-right: 15px;
+                margin-left: 15px;
+                padding: 30px;
+                width:98%;
+                height: auto;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                
+}
+
+
+
+ 
+
+.flexitem {  
+
+        flex-grow: 1; 
+        max-width: 90%;
+                
+
+}
+
+img { 
+        
+        width: 95%;
+        border: 10px solid rgba(0, 0, 0, 0.127);
+        opacity: 0.6;
+        transition-property: width;
+        transition-duration: 2s;
+        transition-timing-function: cubic-bezier(0, 0, 0.86, 0.14);
+        transition-delay: 0s;
+
+
+}
+
+img:hover { 
+        opacity: 10;
+        border: 10px solid rgba(255, 255, 255, 0.651);
+        width:100%
+
+}
+
+
+
+.form{
+   
+                width: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 20px;
+                padding: 10px;
+                z-index: 0;
+                position:relative;
+                z-index: 5;
+        
+
+
+}
+
+.form-container{ 
+
+                display: flex;
+                width: 48%;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                align-content: center;
+
+
+}
+
+.form-input{ 
+
+                width: 90%;
+                margin: 15px;
+                height: auto;
+                padding: 5px;
+}
+
+.form-input-button{  
+
+background-color: rgba(130, 136, 136, 0.658);
+width:80px;
+border-radius: 10px;
+padding: 10px;
+border-style: initial;
+
+}
+
+.aboutme__container { 
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 20px; 
+        padding-left: 100px;
+}
+
+.aboutme__text { 
+
+
+height: auto;
+padding: 20px;
+width: 100%;
+
+}
+
+.aboutme__image img {
+
+  width: 20vw;
+  height: 80vh;
+
+}
+
+.medias{ 
+
+                background-color: rgba(63, 62, 60, 0.212);
+                padding: 60px;
+                margin: 0;
+                text-align: center;
+   
+}
+
+@media  only screen and ( max-width:800px) {
+        .form-input { width:100% }
+
+.navegacion {  display: none ;}
+
+.header { font-size: 10px;}
+
+
+
+ }
+
+
+
+
+
+
+
+
