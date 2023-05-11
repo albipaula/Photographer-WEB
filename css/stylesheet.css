@@ -17,19 +17,18 @@ html{
 
 header{ 
 
-                width: 98%; 
-                padding-top: 30px;
-                 text-align: center;
-               
-                 padding-top: 10px;
+        width: 98%; 
+        padding-top: 30px;
+        text-align: center;
+        padding-top: 10px;
                  
                 
  }
 
 body {
 
-         width: 98%  ;
-         padding: 10px;
+        width: 98%  ;
+        padding: 10px;
         margin: 5px;
         
        
@@ -118,17 +117,17 @@ a:visited{
  
 
 .flexitem {  
-
-        flex-grow: 1; 
-        max-width: 90%;
+        display: flex;
+justify-content: center;
+flex-wrap: wrap;
+        width: 90%;
                 
 
 }
 
-img { 
+.gallery { 
         
-        width: 95%;
-        border: 10px solid rgba(0, 0, 0, 0.127);
+        max-width: 500px;
         opacity: 0.6;
         transition-property: width;
         transition-duration: 2s;
@@ -141,19 +140,48 @@ img {
 img:hover { 
         opacity: 10;
         border: 10px solid rgba(255, 255, 255, 0.651);
-        width:100%
+        width:50%
 
 }
+
+.aboutme { 
+
+     
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+               margin-top: 100px;
+               ;
+            
+         
+               
+        }
+       .aboutme__container { 
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+                width: 60%;
+       }
+        .aboutme__image img {
+        
+          width: 20vw;
+          height: 80vh;
+          border-radius: 40%;
+        
+        }
+
 
 
 
 .form{
-   
+                margin-top: 150px;        
                 width: auto;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                margin: 20px;
                 padding: 10px;
                 z-index: 0;
                 position:relative;
@@ -193,33 +221,7 @@ border-style: initial;
 
 }
 
-.aboutme__container { 
 
-
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 90%;
-        padding: 20px; 
-        padding-left: 100px;
-}
-
-.aboutme__text { 
-
-
-height: auto;
-padding: 20px;
-width: 100%;
-
-}
-
-.aboutme__image img {
-
-  width: 20vw;
-  height: 80vh;
-
-}
 
 .medias{ 
 
