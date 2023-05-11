@@ -250,3 +250,13 @@ border-style: initial;
 
 
 
+@media  (max-width: 700px) {
+        
+
+        .aboutme__container { 
+
+
+                flex-direction: column; gap: 20px;
+        }
+        
+}
