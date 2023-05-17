@@ -3,17 +3,13 @@
 <head>
 
     <title>PH:Facundo Martin </title>
-  
-
 <meta name="author" content="Facundo Samartano">
 <meta name="photos" content="travel photos, nature photos"> 
 <meta name="viewport" content="width=device-width , initial-scale=1.0" >
-
 <link rel="stylesheet" type= "text/css" href="./css/stylesheet.css">
 <script src="https://kit.fontawesome.com/a3cef7a7ef.js" crossorigin="anonymous"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
-
 <link rel="stylesheet" type="text/css" href="./css/normalize.css">
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 
@@ -29,19 +25,21 @@
         <p>Photographer</p>
     </header>
 
-    <ul class="navegacion"> 
+    <nav class="navegacion-container" > 
+
+        <ul class="navegacion">
 
         <li class="menu"><a href="#">Home</a></li>
         <li class="menu"><a href="#portfolio">Portfolio</a></li>
         <li class="menu"><a href="#aboutme">About Me</a></li>
         <li class="menu"><a href="#contact">Contact</a></li>
         <li class="menu"><a href="https://www.instagram.com/facu.ms.ph/" target="_blank"><i class="fab fa-instagram"></i>PICS ON THE WAY</a></li>
-       
     </ul>
+    </nav>
 
 
 
-<div class="container" id="portfolio" > 
+<section  class="container" id="portfolio" > 
     <div class="flexitem">
 
             <img class="gallery" src="img/4x4.jpg">  
@@ -61,43 +59,42 @@
          <img class="gallery" src="img/dronie.JPG"> 
     </div>
      
-</div>
-
-
-<section  class="aboutme" id="aboutme" > 
-
-    <h2>About me </h2>
-<div class="aboutme__container">
-
-    <div class="aboutme__text">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, officiis exercitationem? Quisquam, iste voluptatibus. Cum reiciendis aut libero voluptas neque? Deserunt pariatur sunt, rem veniam at sapiente sequi beatae libero.</p> <br>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem hic commodi libero, tenetur dicta quod necessitatibus voluptate minus, tempore nesciunt incidunt a facere recusandae? Eveniet sapiente deleniti mollitia labore consectetur.</p>
-    
-    </div>
-
-    <div class="aboutme__image">
-        <img src="./img/facu.JPG" alt="facu--photo" width="100%" height="auto">
-    </div>
-
-</div>
 </section>
 
+
+    <section  class="aboutme" id="aboutme" > 
+
+        <h2>About me </h2>
+        <div class="aboutme__container">
+        
+            <div class="aboutme__text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, officiis exercitationem? Quisquam, iste voluptatibus. Cum reiciendis aut libero voluptas neque? Deserunt pariatur sunt, rem veniam at sapiente sequi beatae libero.</p> <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem hic commodi libero, tenetur dicta quod necessitatibus voluptate minus, tempore nesciunt incidunt a facere recusandae? Eveniet sapiente deleniti mollitia labore consectetur.</p>
+            
+            </div>
+        
+            <div class="aboutme__image">
+                <img src="./img/facu.png" alt="facu--photo" width="30%" height="auto">
+            </div>
+        
+        </div>
+    </section>
+
   
-<div class="form" id="contact" >  
+    <section class="form" id="contact" >  
 
     <h2>Contact Me</h2>  
-    
 
-    <form action="" class="form-container">
+        <form action="" class="form-container">
+
+            <input class=form-input type="text" placeholder="Name & surname"> 
+            <input class=form-input type="email" placeholder="email">
         
-        <input class=form-input type="text" placeholder="Name & surname"> 
-        <input class=form-input type="email" placeholder="email">
-       
-        <textarea class=form-input rows="10"> Message</textarea>  
-        <input class=form-input-button type="submit" value="Send";" >
+            <textarea class=form-input rows="10"> Message</textarea>  
+            <input class=form-input-button type="submit" value="Send" >
 
-    </form>
-</div>
+        </form>
+    </section>
 
 
 
@@ -105,13 +102,13 @@
 
 
 
-<footer class="medias" >
+    <footer class="socialMedia" >
 
 
   
-<p class="copyrigths">Copyrights F.M.S 2023</p>
+        <p class="copyrigths">Copyrights F.M.S 2023</p>
 
-</footer>
+    </footer>
 
 
 

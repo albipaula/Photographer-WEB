@@ -1,33 +1,34 @@
+
+
+
+*{ 
+
+        padding: 0px;
+        margin: 0px;
+
+}
+
 html{ 
 
         scroll-behavior: smooth;
 }
 
 
-
-*{ 
-
-                font-family: 'Special Elite', cursive;
-                color: rgba(1, 1, 1, 0.678);
-                padding: 0px;
-                margin: 0px;
-                box-sizing: border-box;
-
-}
-
 header{ 
 
         width: 98%; 
         padding-top: 30px;
         text-align: center;
-        padding-top: 10px;
+ 
                  
                 
  }
 
 body {
-
+        box-sizing: border-box;
         width: 98%  ;
+        font-family: 'Special Elite', cursive;
+        color: rgba(1, 1, 1, 0.678);
         padding: 10px;
         margin: 5px;
         
@@ -36,40 +37,30 @@ body {
 }
 
 
-
-
-.navegacion {  
-
+.navegacion-container{
         position: sticky ;
         top:0;
         z-index: 1;
+        padding: 5px;
         width: 98%;
-        
        
 }
 
-
-.navegacion{
-
-    
-                padding: 5px;
-                width: 98%;
-                height: 100px;
-                text-align: center;
-                text-decoration: none;
-                list-style: none;   
-                display: flex;
-                justify-content: center;
-                flex-direction: row;
-                align-items: center;
-                flex-wrap: wrap;
-               
-
+.navegacion {  
+        
+        height: 100px;
+        text-align: center;
+        text-decoration: none;
+        list-style: none;   
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
 }
 
-li.menu{
+.menu{
 
-               
                 text-decoration: none;
                 padding: 10px;
                 margin: 5px;
@@ -77,7 +68,6 @@ li.menu{
                 width: 150px;
                 font-size: x-large;
                 
-    
 }
 
 li.menu:hover{ 
@@ -87,13 +77,13 @@ li.menu:hover{
                 width: fit-content;
                 transition: 1s;}
 
-a:link{ 
-         list-style: none;
-         text-decoration: none;
- }
+
+a { list-style: none; text-decoration: none;}
+
+
 
 a:visited{ 
-                list-style: none;
+                list-style: none; color: grey;
 }
 
 .container{
@@ -118,8 +108,8 @@ a:visited{
 
 .flexitem {  
         display: flex;
-justify-content: center;
-flex-wrap: wrap;
+        justify-content: center;
+        flex-wrap: wrap;
         width: 90%;
                 
 
@@ -140,8 +130,7 @@ flex-wrap: wrap;
 img:hover { 
         opacity: 10;
         border: 10px solid rgba(255, 255, 255, 0.651);
-        width:50%
-
+        
 }
 
 .aboutme { 
@@ -152,11 +141,8 @@ img:hover {
                 justify-content: center;
                 align-items: center;
                margin-top: 100px;
-               ;
-            
-         
-               
         }
+      
        .aboutme__container { 
 
                 display: flex;
@@ -167,9 +153,9 @@ img:hover {
        }
         .aboutme__image img {
         
-          width: 20vw;
-          height: 80vh;
-          border-radius: 40%;
+         min-width: 400px;
+          min-height: 400px;
+        
         
         }
 
@@ -177,15 +163,14 @@ img:hover {
 
 
 .form{
-                margin-top: 150px;        
-                width: auto;
+                margin-top: 30px;        
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 padding: 10px;
-                z-index: 0;
-                position:relative;
-                z-index: 5;
+            
+      
+      
         
 
 
@@ -223,7 +208,7 @@ border-style: initial;
 
 
 
-.medias{ 
+.socialMedia{ 
 
                 background-color: rgba(63, 62, 60, 0.212);
                 padding: 60px;
